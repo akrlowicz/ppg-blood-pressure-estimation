@@ -1,6 +1,6 @@
 # ppg-blood-pressure-estimation
 
-This notebook attempts blood pressure estimation from rPPG signal (remote PPG). On the basis of https://arxiv.org/pdf/1705.04524v3.pdf article here LSTMs are used on extracted features from signal.
+This notebook attempts blood pressure estimation from PPG signal. On the basis of https://arxiv.org/pdf/1705.04524v3.pdf article here LSTMs are used on extracted features from signal.
 
 
 # Dataset
@@ -14,6 +14,13 @@ Bidirectional LSTMs were used with residual connections to predict blood pressur
 # Results so far
 
 RMSE was used as metric, MAE as loss function. Since RMSE was converted to [mmHg] unit in article, here I use same unit.
+
+Train Score RMSE [mmHg]: 
+ SBP 15.65 
+ DBP 10.33
+Test Score RMSE [mmHg]: 
+ SBP 16.58 
+ DBP 12.05
 
 //TODO
 
