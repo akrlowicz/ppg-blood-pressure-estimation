@@ -16,11 +16,11 @@ Bidirectional LSTMs were used with residual connections to predict blood pressur
 RMSE was used as metric, MAE as loss function. Since RMSE was converted to [mmHg] unit in article, here I use same unit.
 
 Train Score RMSE [mmHg]: 
- SBP 15.65 
- DBP 10.33
+  - SBP 15.65 
+  - DBP 10.33
 Test Score RMSE [mmHg]: 
- SBP 16.58 
- DBP 12.05
+  - SBP 16.58 
+  - DBP 12.05
 
 //TODO
 
